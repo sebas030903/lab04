@@ -48,6 +48,7 @@ fun ViewHolaCurso() {
             fontSize = 20.xD
 
     }
+
 }
 
 
