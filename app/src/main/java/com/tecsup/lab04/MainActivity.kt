@@ -22,24 +22,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Lab04Theme {
-                ImageExample()
             }
         }
-    }
-}
-
-@Composable
-fun ImageExample() {
-    Box(
-        modifier = Modifier.fillMaxSize(),
-        contentAlignment = Alignment.Center
-    ) {
-        Image(
-            painter = painterResource(id = R.drawable.mi_imagen),
-            contentDescription = "Dragon",
-            modifier = Modifier.size(200.dp),
-            contentScale = ContentScale.Crop
-        )
     }
 }
 
